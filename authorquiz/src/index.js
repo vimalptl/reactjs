@@ -66,4 +66,4 @@ const state = {
 };
 
 ReactDOM.render(<AuthorQuiz {...state} />, document.getElementById('root'));
-ServiceWorker();
+ServiceWorker.unregister();
